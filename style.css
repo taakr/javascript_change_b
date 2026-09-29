@@ -3,11 +3,11 @@
 :root[data-theme="color-a"] {
     --color-main: rgb(254, 178, 254);
     --color-sub: rgb(255, 60, 119);
-    --color-text: #000;
+    --color-text: #fff;
 }
 
 :root[data-theme="color-b"] {
-    --color-main:  green;
+    --color-main:  rgb(135, 255, 191);
     --color-sub: lightgreen;
     --color-text: #000;
 }
@@ -36,16 +36,16 @@ button {
 }
 
 #btn-a {
-    background-color: orange;
+    background-color: rgb(251, 184, 255);
     color: #000;
 }
 
 #btn-b {
-    background-color: green;
+    background-color: rgb(107, 248, 149);
     color: #000;
 }
 
 #btn-c {
-    background-color: navy;
+    background-color: rgb(77, 199, 255);
     color: #fff;
 }
