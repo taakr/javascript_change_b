@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+:root[data-theme="color-a"] {
+    --color-main: rgb(254, 178, 254);
+    --color-sub: rgb(255, 60, 119);
+    --color-text: #000;
+}
+
+:root[data-theme="color-b"] {
+    --color-main:  green;
+    --color-sub: lightgreen;
+    --color-text: #000;
+}
+
+:root[data-theme="color-c"] {
+    --color-main: rgb(154, 238, 255);
+    --color-sub: rgb(34, 167, 255);
+    --color-text: #fff;
+}
+
+body {
+    background-color: var(--color-main);
+    color: var(--color-text);
+}
+
+p {
+    background-color: var(--color-sub);
+}
+
+/*ボタンの装飾*/
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+}
+
+#btn-a {
+    background-color: orange;
+    color: #000;
+}
+
+#btn-b {
+    background-color: green;
+    color: #000;
+}
+
+#btn-c {
+    background-color: navy;
+    color: #fff;
+}
